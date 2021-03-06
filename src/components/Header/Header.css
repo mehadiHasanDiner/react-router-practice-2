@@ -1,0 +1,12 @@
+.navbar-style {
+    background-color: purple;
+    color: white;  
+    font-size: 20px;  
+}
+
+.navbar-style button{
+    font-size: 25px;
+    background-color: tomato;
+    font-weight: bold;
+    color: black;
+}
