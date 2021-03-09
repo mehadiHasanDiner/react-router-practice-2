@@ -9,7 +9,6 @@ import {
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NoMatch from './components/NoMatch/NoMatch';
-import CountryDetail from './components/CountryDetail/CountryDetail';
 
 function App() {
   return (
@@ -22,9 +21,9 @@ function App() {
           <Home></Home>
         </Route>
         <Route path ="/country"></Route>
-        <Route path ="/flag"></Route>
-        <Route path ="/countryDetail/:countryDetailID">
-          <CountryDetail></CountryDetail>
+        <Route path ="/flag">
+        </Route>
+        <Route>
         </Route>
         <Route exact path ="/">
           <Home></Home>
