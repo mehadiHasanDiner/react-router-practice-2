@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
@@ -26,7 +26,9 @@ function App() {
         <Route path ="/countryDetail/:countryDetailID">
           <CountryDetail></CountryDetail>
         </Route>
-        <Route exact path ="/"></Route>
+        <Route exact path ="/">
+          <Home></Home>
+        </Route>
         <Route path ="*">
           <NoMatch></NoMatch>
         </Route>
